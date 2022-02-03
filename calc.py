@@ -1,7 +1,5 @@
-def subtract(name, a, b):
-    print(f"Hi {name}, let's subtract!")
+def subtract(a, b):
     print(f'{a} - {b} = {a - b}')
 
-def add(name, a, b):
-    print(f"Hi {name}, let's add!")
+def add(a, b):
     print(f'{a} + {b} = {a + b}')
