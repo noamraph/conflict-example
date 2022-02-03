@@ -2,6 +2,6 @@ def subtract(name, a, b):
     print(f"Hi {name}, let's subtract!")
     print(f'{a} - {b} = {a - b}')
 
-def add(name, a, b):
+def add(name, a, b, c):
     print(f"Hi {name}, let's add!")
-    print(f'{a} + {b} = {a + b}')
+    print(f'{a} + {b} + {c} = {a + b + c}')
