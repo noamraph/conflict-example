@@ -1,7 +1,5 @@
-def divide(name, a, b):
-    print(f"Hi {name}, let's divide!")
+def divide(a, b):
     print(f'{a} / {b} = {a / b}')
 
-def multiply(name, a, b):
-    print(f"Hi {name}, let's multiply!")
+def multiply(a, b):
     print(f'{a} * {b} = {a * b}')
