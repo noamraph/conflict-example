@@ -32,7 +32,6 @@ from meld.const import (
 from meld.dirdiff import DirDiff
 from meld.filediff import FileDiff
 from meld.fourdiff import FourDiff
-from meld.misc import guess_if_remote_x11
 from meld.recent import RecentType, recent_comparisons
 from meld.settings import get_meld_settings
 from meld.task import LifoScheduler
