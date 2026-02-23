@@ -6,9 +6,11 @@ def build_test_args(args: TestOptions) -> list[str]:
         run_id = os.urandom(8).hex()
     dry_run_args = ["--dry-run"] if args.dry_run else []
     dry_fails_args = ["--dry-fails", args.dry_fails] if args.dry_fails else []
+    env = ["--env", args.env] if args.env is not None else []
     return (
         dry_run_args
         + dry_fails_args
+        + env
         + [
             "--run-id",
             run_id,
